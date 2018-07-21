@@ -22,6 +22,9 @@ public class Inheritance001 {
  System.out.println("Is S object inheritance of Student class ?  " +( s instanceof Result));
  System.out.println("Is S object inheritance of Student class ?  " +( r instanceof Student));
  System.out.println("Is S object inheritance of Student class ?  " +( r instanceof Result));
+ 
+ System.out.println("Is S object inheritance of Student class ?  " +( s instanceof Object));
+ System.out.println("Is S object inheritance of Student class ?  " +( r instanceof  Object));
 	}
 
 }
