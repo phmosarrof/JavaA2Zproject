@@ -17,6 +17,11 @@ public class Inheritance001 {
  System.out.println(" Roll : " + r.roll);
  System.out.println(" Class Name of r : " + r.getClass());
  System.out.println(" Memory location of r object : " + r.toString());
+ 
+ System.out.println("Is S object inheritance of Student class ?  " +( s instanceof Student));
+ System.out.println("Is S object inheritance of Student class ?  " +( s instanceof Result));
+ System.out.println("Is S object inheritance of Student class ?  " +( r instanceof Student));
+ System.out.println("Is S object inheritance of Student class ?  " +( r instanceof Result));
 	}
 
 }
