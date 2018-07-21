@@ -7,17 +7,21 @@ public class Inheritance001 {
 		Student s = new Student();
 		Result r = new Result();
 
-		s.name = " Monium";
-		s.roll = 101;
+		//s.name = " Monium";
+		//s.roll = 101;
+		
+		s.setName("Monium");
+		s.setRoll(101);
 
-		System.out.println(" Name : " +s.name);
-		System.out.println(" Name : " +s.roll);
+		System.out.println(" Name : " +s.getName());
+		System.out.println(" Name : " +s.getRoll());
 
-		r.roll = 102;
-		r.name = "Mahdi";
+		r.setRoll = (102);
+		r.setName("Mahdi");
 		r.mark = 99;
 
 		System.out.println();
+		
 		
 		System.out.println(" Class Name of S : " + s.getClass());
 		System.out.println(" Memory location of S object : " + s.toString());
@@ -25,8 +29,8 @@ public class Inheritance001 {
 
 		System.out.println();
 		
-		System.out.println(" Roll : " + r.roll);
-		System.out.println(" Roll : " + r.name);
+		System.out.println(" Roll : " + r.getRoll());
+		System.out.println(" Roll : " + r.getName());
 		System.out.println(" Roll : " + r.mark);
 
 		System.out.println(" Class Name of r : " + r.getClass());
