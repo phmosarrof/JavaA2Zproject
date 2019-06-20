@@ -15,6 +15,18 @@ class Human1 {
     String ssn;  // 265529655 
     String phoneNo; // "2052396211"
     
+    public Human1() {
+    	
+    }
+    
+    public String Human1() {
+    	System.out.println("It's a constructor");
+		return dob;
+    }
+    
+   
+    
+    
     public char getGender() {
         return gender;
     }
@@ -93,7 +105,12 @@ public class Human {
         //int ismail = 15;
                 
         Human1 faisal = new Human1();
-        Human1 mahdi = new Human1();
+        
+        //System.out.println();
+        
+        
+        
+       /* Human1 mahdi = new Human1();
         Human1 munim = new Human1();
         
         ((Human1) faisal).setAge(25);
@@ -105,7 +122,7 @@ public class Human {
         System.out.println("faisal's citizenship = " + faisal.isUSCitizen);
         
         System.out.println("mahdi's age = " + mahdi.getAge());
-        System.out.println("munim's age = " + munim.getAge());
+        System.out.println("munim's age = " + munim.getAge());*/
         
         
     }

@@ -32,13 +32,11 @@ public float getAmount() {
 public void setAmount(float amount) {  
     this.amount = amount;  
 }  
-  
 } 
-
 public class TestEncapsulationEx {  
 public static void main(String[] args) {  
     //creating instance of Account class  
-    Account acc=new Account(); 
+    Account acc = new Account(); 
     
     //setting values through setter methods  
     acc.setAcc_no(7560504000L);  
